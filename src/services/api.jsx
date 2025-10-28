@@ -1,6 +1,6 @@
 // --- API CONFIGURATION ---
 
-const API_KEY = '11dc92fcc2msh43393d77c1a4e95p10d7e5jsn2849c9c64ccb'; 
+const API_KEY = import.meta.env.VITE_API_KEY;
 const API_HOST = 'exercisedb.p.rapidapi.com';
 const API_BASE_URL = `https://exercisedb.p.rapidapi.com`;
 
