@@ -28,6 +28,8 @@
     "vite": "^7.0.0"
   },
   "scripts": {
-  "test": "react-scripts test"
+  "dev": "vite",
+  "build": "vite build",
+  "test": "vitest"
 }
 }
